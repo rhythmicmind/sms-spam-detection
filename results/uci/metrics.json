@@ -1,0 +1,127 @@
+{
+  "seed": 42,
+  "raw_rows": 5572,
+  "unique_rows": 5157,
+  "train_rows": 4125,
+  "test_rows": 1032,
+  "input_sha256": "7d039a24a6083ed9ef0f806ebad56bbb976e3aeb8de05669173bfdc4996c239d",
+  "models": {
+    "majority": {
+      "metrics": {
+        "ham": {
+          "precision": 0.875968992248062,
+          "recall": 1.0,
+          "f1-score": 0.9338842975206612,
+          "support": 904.0
+        },
+        "spam": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 128.0
+        },
+        "accuracy": 0.875968992248062,
+        "macro avg": {
+          "precision": 0.437984496124031,
+          "recall": 0.5,
+          "f1-score": 0.4669421487603306,
+          "support": 1032.0
+        },
+        "weighted avg": {
+          "precision": 0.7673216753800853,
+          "recall": 0.875968992248062,
+          "f1-score": 0.8180536869754629,
+          "support": 1032.0
+        }
+      },
+      "confusion_matrix_ham_spam": [
+        [
+          904,
+          0
+        ],
+        [
+          128,
+          0
+        ]
+      ]
+    },
+    "naive_bayes": {
+      "metrics": {
+        "ham": {
+          "precision": 0.9367875647668393,
+          "recall": 1.0,
+          "f1-score": 0.9673622257891921,
+          "support": 904.0
+        },
+        "spam": {
+          "precision": 1.0,
+          "recall": 0.5234375,
+          "f1-score": 0.6871794871794872,
+          "support": 128.0
+        },
+        "accuracy": 0.9408914728682171,
+        "macro avg": {
+          "precision": 0.9683937823834197,
+          "recall": 0.76171875,
+          "f1-score": 0.8272708564843396,
+          "support": 1032.0
+        },
+        "weighted avg": {
+          "precision": 0.9446278668112624,
+          "recall": 0.9408914728682171,
+          "f1-score": 0.9326108783647327,
+          "support": 1032.0
+        }
+      },
+      "confusion_matrix_ham_spam": [
+        [
+          904,
+          0
+        ],
+        [
+          61,
+          67
+        ]
+      ]
+    },
+    "logistic_regression": {
+      "metrics": {
+        "ham": {
+          "precision": 0.9556025369978859,
+          "recall": 1.0,
+          "f1-score": 0.9772972972972973,
+          "support": 904.0
+        },
+        "spam": {
+          "precision": 1.0,
+          "recall": 0.671875,
+          "f1-score": 0.8037383177570093,
+          "support": 128.0
+        },
+        "accuracy": 0.9593023255813954,
+        "macro avg": {
+          "precision": 0.977801268498943,
+          "recall": 0.8359375,
+          "f1-score": 0.8905178075271534,
+          "support": 1032.0
+        },
+        "weighted avg": {
+          "precision": 0.9611091990756675,
+          "recall": 0.9593023255813954,
+          "f1-score": 0.9557706021605175,
+          "support": 1032.0
+        }
+      },
+      "confusion_matrix_ham_spam": [
+        [
+          904,
+          0
+        ],
+        [
+          42,
+          86
+        ]
+      ]
+    }
+  }
+}
