@@ -2,10 +2,6 @@
 
 A reproducible English SMS classification baseline with TF-IDF, Naive Bayes, logistic regression, and error analysis.
 
-## Project status
-
-New portfolio implementation prepared in October 2026 with coding-assistant support.
-This is not a historical project submission, employer deliverable, or deployed system.
 The bundled data is synthetic. See [DATA_CARD.md](DATA_CARD.md) before interpreting outputs.
 
 ## Run locally
